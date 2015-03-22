@@ -1,4 +1,6 @@
-## Project
+## Getting and Cleaning Data
+## Course Project
+## 03/22/2015
 
 setwd("~/coursera/data_scientist/getting-and-cleaning-data/project")
 
