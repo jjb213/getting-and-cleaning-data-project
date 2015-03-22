@@ -25,8 +25,7 @@ for (i in 1:10299 ) {
 ## Already done in step 2, which made selecting mean and standard deviation measurements easier
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-data2 <- matrix(nrow=6, ncol=80)
-##colnames(data2)[1] = c("Activity")
+data2 <- data.frame(matrix(nrow=6, ncol=80))
 
 for (i in 1:6) {
         data2[i,80] = descLabels[i]
